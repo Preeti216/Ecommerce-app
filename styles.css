@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+#filters {
+  margin-bottom: 20px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 180px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
